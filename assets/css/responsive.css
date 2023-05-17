@@ -1,0 +1,224 @@
+@media all and (max-width:1399px){
+    .footer-widget {
+        margin-bottom: 50px;
+    }
+}
+@media all and (max-width:1200px){
+    .btn-1{
+        font-size:17px;
+    }
+    .menu{
+        background-color: var(--secondaryColor1);
+    }
+    .menu > ul > li > a{
+        color:var(--primaryColor1);
+        padding: 15px 22px;
+    }
+    .menu > ul > li > a:hover{
+        color:var(--primaryColor2)
+    }
+    .menu ul li a{
+        font-size: 17px; 
+    }
+    .work-smarter-tabs ul li button { 
+        font-size: 18px;  
+    }
+    .pricing-head{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+   
+}
+
+@media all and (min-width:990px){
+    .menu{
+        display: block !important;
+    }
+}
+
+@media all and (max-width:990px){
+    .menu_icon {
+        font-size: 25px;
+        color: var(--primaryColor1);
+        background: var(--secondaryColor4);
+        padding: 7px 15px;
+        border-radius: 10px;
+        line-height: 35px;
+        display: block;
+        margin-left: 15px;
+    }
+    .logo {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .menu-btn{
+        display: none;
+    }
+    .menus {
+        position: absolute;
+        width: 80%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .menu{
+        width: 100%;
+        margin-top: 10px;
+        display: none;
+    }
+    .menu ul { 
+        -webkit-box-orient: vertical; 
+        -webkit-box-direction: normal; 
+            -ms-flex-direction: column; 
+                flex-direction: column;
+    }
+    .mobile-menu-btns{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .banner-content{
+        margin-bottom: 20px;
+    }
+    .header-area{
+        background: none;
+        padding-top: 30px;
+    }
+    h1{
+        font-size:50px;
+    }
+    .banner {
+        margin-top: 50px;
+    }
+  
+    .about-area{
+        background: none;
+    }
+    .about-left{
+        margin-bottom: 30px;
+    }
+    .work-smarter-tabs ul li{
+        margin-bottom: 20px;
+    }
+    .work-smarter-tabs ul li button { 
+        font-size: 18px; 
+        padding: 12px 18px;
+    }
+    .work-left{
+        margin-bottom: 20px;
+    }
+    .single-pricing {
+        margin-bottom: 50px;
+    }
+    .pricing-head h3{
+        font-size:30px;
+    }
+    h2{
+        font-size:40px;
+    }
+    .pricing-head{
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+    }
+    .trial-left{
+        padding-bottom: 40px;
+    }
+    .single-blog{
+        margin-bottom: 50px;
+    }
+    .copyright-text{
+        text-align: center;
+        margin-bottom:15px;
+    }
+    .footer-social-icons ul{
+        -webkit-box-pack: center !important;
+            -ms-flex-pack: center !important;
+                justify-content: center !important;
+    }
+    .about-area,.trial-area{
+        padding:0 !important;
+    }
+}
+ 
+@media all and (max-width:767px){
+    .pricing-package{
+        margin-bottom: 30px;
+    }
+}
+@media all and (max-width:575px){
+ 
+    .banner p{
+        font-size:20px;
+    }
+    .btn-2,.btn-icon{
+        font-size: 16px;
+    }
+   
+    .title-btn{
+        font-size:16px;
+    }
+    h2{
+        font-size:30px;
+    }
+     
+    .single-feature p,.single-feature a{
+        font-size:16px;
+    }
+    .section-title { 
+        margin-bottom: 20px;
+    }
+    h3{
+        font-size:25px;
+    }
+    p{
+        font-size:16px;
+    }
+    .section-padding {
+        padding: 60px 0;
+    }
+    .blog-content h3{
+        font-size:25px;
+    }
+    .blog-content > a,.blog-thumbnail ul li a{
+        font-size:16px;
+    }
+    .blog-content p {
+        margin-bottom: 10px;
+    }
+}
+
+@media all and (max-width:450px){
+    .menu_icon{
+        margin-left: 0;
+    }
+    .btn-2{
+        padding:15px 25px;
+    }
+    .subsribe-form form,.app-download-widget ul{
+        flex-direction:column;
+    }
+    .subsribe-form form input[type="email"]{
+        width:100%;
+        margin-bottom: 10px;
+    }
+    .single-blog{
+        padding:20px;
+    }
+    .app-download-widget ul li{
+        margin-bottom: 10px;
+    }
+}
